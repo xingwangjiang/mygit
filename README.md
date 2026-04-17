@@ -38,11 +38,57 @@
 print("hello")
 ```
 
-# 图片描述
-![这是一张小狗的图片](https://image.baidu.com/search/detail?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&cl=2&cm=1&sc=0&sa=vs_ala_img_datu&lm=-1&ie=utf8&pn=0&rn=1&di=7620110360720179201&ln=0&word=%E5%B0%8F%E7%8B%97%E5%9B%BE%E7%89%87&os=3603620289,1251047128&cs=1394192973,98794003&objurl=http%3A%2F%2Fiknow-pic.cdn.bcebos.com%2Feac4b74543a98226bb8367a69882b9014b90ebf5&bdtype=0&simid=1394192973,98794003&pi=0&adpicid=0&timingneed=&spn=0&is=3603620289,1251047128&lid=daa3d6d9003c0087)
-
 # 分割线（---）
----------------------------------
+---------------------------------------------------------------------------
 
+# 图片描述
+![这是一张小狗的图片](https://tse1.explicit.bing.net/th/id/OIP.sMe7wxrmqzheDdpKKy4idAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3)
 
+# 风景图片
+![这是一张埃菲尔铁塔的图片](风景图片/微信图片_20260416195530_1011_55.jpg)
+
+# 风景图片
+<img src="风景图片/微信图片_20260416195530_1011_55.jpg" alt="埃菲尔铁塔" width="400">
+
+# 常用命令
+```
+# ==================== 初始化 / 基础配置 ====================
+git init          # 初始化本地 Git 仓库（第一次用）
+git config --global user.name "你的名字"    # 设置用户名
+git config --global user.email "你的邮箱"    # 设置邮箱
+
+# ==================== 查看状态 ====================
+git status        # 查看文件修改状态（红/绿文件）
+git log           # 查看提交历史记录
+git remote -v     # 查看关联的远程仓库地址（GitHub地址）
+
+# ==================== 添加 / 提交 ====================
+git add 文件名     # 把单个文件加入暂存区
+git add .         # 把所有修改的文件加入暂存区（最常用）
+
+git commit -m "本次修改说明"  # 提交到本地仓库，必须写备注
+
+# ==================== 关联 / 推送 GitHub ====================
+git remote add origin 仓库地址   # 第一次关联远程仓库
+git remote set-url origin 新地址  # 修改远程仓库地址
+
+git push -u origin main  # 第一次推送到GitHub（绑定主分支）
+git push                 # 以后直接推送（最常用）
+
+# ==================== 拉取 / 更新 ====================
+git pull                # 拉取GitHub最新代码到本地
+git pull origin main    # 拉取指定分支的最新代码
+
+# ==================== 分支常用 ====================
+git branch              # 查看当前分支
+git branch 分支名        # 创建新分支
+git checkout 分支名      # 切换分支
+git merge 分支名        # 合并分支到当前分支
+
+# ==================== 日常开发万能流程 ====================
+# 1. 修改文件
+# 2. git add .
+# 3. git commit -m "更新了xxx"
+# 4. git push
+```
 
