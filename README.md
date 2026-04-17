@@ -39,7 +39,7 @@ print("hello")
 ```
 
 # 图片描述
-![这是一张小狗的图片](https://image.baidu.com/search/detail?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&cl=2&cm=1&sc=0&sa=vs_ala_img_datu&lm=-1&ie=utf8&pn=0&rn=1&di=7620110360720179201&ln=0&word=%E5%B0%8F%E7%8B%97%E5%9B%BE%E7%89%87&os=3603620289,1251047128&cs=1394192973,98794003&objurl=http%3A%2F%2Fiknow-pic.cdn.bcebos.com%2Feac4b74543a98226bb8367a69882b9014b90ebf5&bdtype=0&simid=1394192973,98794003&pi=0&adpicid=0&timingneed=&spn=0&is=3603620289,1251047128&lid=daa3d6d9003c0087)
+![这是一张小狗的图片](http://www.baidu.com)
 
 # 分割线（---）
 ---------------------------------
