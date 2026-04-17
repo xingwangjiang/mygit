@@ -39,7 +39,7 @@ print("hello")
 ```
 
 # 图片描述
-![这是一张小狗的图片](http://www.baidu.com)
+![这是一张小狗的图片](https://tse1.explicit.bing.net/th/id/OIP.sMe7wxrmqzheDdpKKy4idAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3)
 
 # 分割线（---）
 ---------------------------------
