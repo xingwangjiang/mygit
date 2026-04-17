@@ -3,5 +3,5 @@
 
 ## 标题
 
-[百度超链接]（http://www.baidu.com）
+[百度超链接](http://www.baidu.com)
 
